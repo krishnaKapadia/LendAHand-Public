@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lend a hand</title>
+    <link
+      rel="shortcut icon"
+      href="./images/fav_icon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <!-- Bulma Version 0.7.5-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <section class="hero is-default is-bold hero-background">
+      <div class="hero-head">
+        <nav class="navbar">
+          <div id="navbar-container" class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="#">
+                <h1 class="brand-title">🙏 Lend a hand</h1>
+              </a>
+              <span
+                class="navbar-burger burger"
+                role="button"
+                data-target="navbarMenu"
+                aria-label="menu"
+                aria-expanded="false"
+              >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </span>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+              <div class="navbar-end">
+                <a href="#about" class="navbar-item">
+                  About
+                </a>
+
+                <!-- <a href="" class="navbar-item">
+                Mission
+              </a> -->
+
+                <a href="" id="btn-signup" class="navbar-item">
+                  Sign up
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="hero-body" style="margin-top: 4vh">
+        <div class="container">
+          <div class="columns is-vcentered">
+            <div class="column is-5 has-text-centered-mobile">
+              <h1 class="title is-2 hero-title">
+                A New Way To Donate.
+                <!-- Make a <span style="white-space: nowrap">difference</span> -->
+              </h1>
+
+              <div id="welcome">
+                <h2 class="subtitle hero-subtitle is-5">
+                  Donate to multiple charities and track your impact all in one
+                  place.
+                </h2>
+
+                <br />
+
+                <p>
+                  <a
+                    id="btn-access"
+                    href="./pages/registration.html"
+                    class="button button-pink is-medium is-info is-outlined"
+                  >
+                    Make a difference
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="column">
+              <img src="./images/app.svg" alt="Description" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section is-primary is-medium">
+      <div class="container">
+        <div class="title-wrapper has-text-centered">
+          <h2 class="title is-2">How it works</h2>
+          <h3 class="subtitle is-5 is-muted">
+            We split your donation between the charities you want to support
+          </h3>
+          <div class="divider is-centered"></div>
+        </div>
+
+        <br />
+
+        <div class="content-wrapper">
+          <div class="columns">
+            <div class="column is-one-third">
+              <div class="card has-text-centered" style="padding: 24px">
+                <div class="card-icon">
+                  <img
+                    src="./images/icons/link.svg"
+                    alt=""
+                    width="80px"
+                    height="80px"
+                  />
+                </div>
+
+                <br />
+
+                <div>
+                  <h4 class="subtitle is-5">
+                    <strong>1. Support charities</strong>
+                  </h4>
+                </div>
+
+                <br />
+
+                <div class="card-text">
+                  <p>Choose as many charities as you want to support.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card has-text-centered" style="padding: 24px">
+                <div class="card-icon">
+                  <img
+                    src="./images/icons/calendar.svg"
+                    alt=""
+                    width="80px"
+                    height="80px"
+                  />
+                </div>
+
+                <br />
+
+                <div>
+                  <h4 class="subtitle is-5">
+                    <strong>2. Donation frequency</strong>
+                  </h4>
+                </div>
+
+                <br />
+
+                <div class="card-text">
+                  <p>Select the frequency of your donations.</p>
+                  <!-- <p>How often do you want to support your selected charities?</p> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card has-text-centered" style="padding: 24px">
+                <div class="card-icon">
+                  <img
+                    src="./images/icons/hand.svg"
+                    alt=""
+                    width="80px"
+                    height="80px"
+                  />
+                </div>
+
+                <br />
+
+                <div>
+                  <h4 class="subtitle is-5">
+                    <strong>3. Your support</strong>
+                  </h4>
+                </div>
+
+                <br />
+
+                <div class="card-text">
+                  <p>Track the impact you've made over time.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="section hero is-primary is-bold">
+    <div class="container">
+      <h1 class="title">Section</h1>
+      <h2 class="subtitle">
+        A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
+      </h2>
+    </div>
+  </section> -->
+
+    <!-- Scripts -->
+    <script src="./js/bulma.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
