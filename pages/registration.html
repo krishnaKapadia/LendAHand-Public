@@ -2,27 +2,29 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cover - Free Bulma template</title>
-  <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lend a hand</title>
+  <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Fredoka+One|Josefin+Sans|Cabin&display=swap"
+    rel="stylesheet">
+  <!-- Bulma Version 0.7.5-->
   <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
+  <link rel="stylesheet" href="../assets/fonts/nexa/stylesheet.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="../css/animate.css" />
   <link rel="stylesheet" href="../css/index.css" />
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
-  <section class="hero is-fullheight is-default is-bold">
+  <section class="hero is-default is-bold hero-background">
     <div class="hero-head">
       <nav class="navbar">
         <div id="navbar-container" class="container">
           <div class="navbar-brand">
-            <a class="navbar-item" href="#">
-              <h1 class="brand-title">🙏 Lend a hand</h1>
+            <a class="navbar-item" href="../index.html">
+              <h1 class="brand-title">Lend a hand</h1>
             </a>
             <span class="navbar-burger burger" role="button" data-target="navbarMenu" aria-label="menu"
               aria-expanded="false">
@@ -37,7 +39,7 @@
                 About
               </a>
 
-              <a href="" id="btn-signup" class="navbar-item">
+              <a href="" id="btn-signup" class="navbar-item animated tada delay-2s">
                 Get early access
               </a>
             </div>
@@ -57,7 +59,7 @@
 
             <div id="welcome">
               <h2 class="subtitle is-5">
-                Sign up and we will let you know when Lend A Hand goes live!
+                Enter your details and we will let you know when Lend A Hand goes live!
               </h2>
 
 
@@ -112,9 +114,10 @@
                       name="b_100d6a496ba32b99bddbdbfa5_b701234eac" tabindex="-1" value=""></div>
 
                   <br />
+
                   <div class="clear">
                     <button class="button button-pink btn-register is-medium is-info is-outlined" name="subscribe"
-                      id="mc-embedded-subscribe" type="submit">Sign up</button>
+                      id="mc-embedded-subscribe" type="submit">Register your interest</button>
                   </div>
                 </div>
               </form>
@@ -138,7 +141,7 @@
           </div>
 
           <div class="column">
-            <img src="../images/app.svg" alt="Description">
+            <img src="../images/app.svg" alt="Description" class="animated fadeInRight" />
           </div>
 
         </div>
@@ -146,6 +149,38 @@
     </div>
 
     <section id="about" class="section is-primary is-medium">
+      <div class="container">
+        <div class="title-wrapper has-text-centered">
+          <h2 class="title is-2">The mission</h2>
+
+          <div class="divider is-centered"></div>
+        </div>
+
+        <br />
+
+        <div class="content-wrapper">
+          <div class="columns">
+            <div class="column  has-text-centered">
+              <h3 class="subtitle is-5 is-muted small-content">
+                Lend a Hand's mission is to provide a service for every day
+                people to support charities that are making a real impact in the
+                world today. Donate how you want, when you want and track the
+                impact of your donations over time.
+              </h3>
+
+              <br />
+
+              <div>
+                <img class="graph animated fadeInUp " src="../images/graphImg.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="howitworks" class="section is-primary is-medium">
       <div class="container">
         <div class="title-wrapper has-text-centered">
           <h2 class="title is-2">How it works</h2>
